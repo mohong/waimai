@@ -11,7 +11,7 @@
         <div class="price" :class="{'highlight':totalPrice>0}">¥{{totalPrice}}</div>
         <div class="desc">另需配送费¥{{deliveryPrice}}元</div>
       </div>
-      <div class="content-right">
+      <div class="content-right" @click.stop.prevent="pay">
         <div class="pay" :class="payClass">
           {{payDesc}}
         </div>
@@ -25,7 +25,7 @@
     <div class="shopcart-list" v-show="listShow" transition="fold">
       <div class="list-header">
         <h1 class="title">购物车</h1>
-        <span class="empty">清空</span>
+        <span class="empty" @click="empty">清空</span>
       </div>
       <div class="list-content" v-el:list-content>
         <ul>
@@ -42,6 +42,7 @@
       </div>
     </div>
   </div>
+  <div class="list-mask" v-show="listShow" transition="fade" @click="hideList"></div>
 </template>
 
 <script>
@@ -157,6 +158,20 @@
           return;
         }
         this.fold = !this.fold;
+      },
+      empty() {
+        this.selectFoods.forEach((food) => {
+          food.count = 0;
+        });
+      },
+      hideList() {
+        this.fold = true;
+      },
+      pay() {
+        if (this.totalPrice < this.minPrice) {
+          return;
+        }
+        window.alert(`需要支付${this.totalPrice}元`);
       }
     },
     transitions: {
@@ -358,4 +373,19 @@
             position: absolute
             right: 0
             bottom: 6px
+  .list-mask
+    position: fixed
+    left: 0
+    top: 0
+    width: 100%
+    height: 100%
+    z-index: 40
+    backdrop-filter: blur(10px)
+    &.fade-transition
+      transition: all 0.5s
+      opacity: 1
+      background: rgba(7, 17, 27, 0.6)
+    &.fade-enter,&.fade-leave
+      opacity: 0
+      background: rgba(7, 17, 27, 0)
 </style>
