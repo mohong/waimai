@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="731a71c1-4ae0-437b-98f3-9d7b19c8ad13" name="Default" comment="详情页ratingselect组件完成">
+    <list default="true" id="731a71c1-4ae0-437b-98f3-9d7b19c8ad13" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/common/js/date.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/food/food.vue" afterPath="$PROJECT_DIR$/src/components/food/food.vue" />
     </list>
@@ -50,29 +51,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="food.vue" pinned="false" current-in-tab="true">
+      <file leaf-file-name="food.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/food/food.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="253" column="29" selection-start-line="253" selection-start-column="29" selection-end-line="253" selection-end-column="29" />
+            <state relative-caret-position="132">
+              <caret line="55" column="50" selection-start-line="55" selection-start-column="50" selection-end-line="55" selection-end-column="50" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-                <element signature="e#2119#2155#0" expanded="true" />
-                <element signature="e#3815#4194#0" expanded="false" />
-                <element signature="e#5041#5465#0" expanded="false" />
-                <marker date="1480757973933" expanded="false" signature="4214:4926" ph="{...}" />
+                <element signature="e#3152#3192#0" expanded="false" />
+                <element signature="e#3216#3378#0" expanded="false" />
+                <element signature="e#3407#3623#0" expanded="false" />
+                <element signature="e#3643#3963#0" expanded="false" />
+                <element signature="e#3677#3794#0" expanded="false" />
+                <element signature="e#4124#4182#0" expanded="false" />
+                <element signature="e#4600#4979#0" expanded="false" />
+                <element signature="e#5826#6250#0" expanded="false" />
+                <element signature="e#6749#7733#0" expanded="false" />
+                <marker date="1480763288633" expanded="false" signature="4999:5711" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="icon.styl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/common/stylus/icon.styl">
+      <file leaf-file-name="date.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/common/js/date.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="48" column="16" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="16" />
+            <state relative-caret-position="38">
+              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -81,8 +88,8 @@
       <file leaf-file-name="ratingselect.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/ratingselect/ratingselect.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="5" column="151" selection-start-line="5" selection-start-column="151" selection-end-line="5" selection-end-column="151" />
+            <state relative-caret-position="175">
+              <caret line="71" column="38" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="38" />
               <folding>
                 <element signature="n#div#1;n#div#0;n#template#0;n#!!top" expanded="false" />
                 <element signature="e#884#1322#0" expanded="false" />
@@ -155,6 +162,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Vue File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -185,6 +193,7 @@
         <option value="$PROJECT_DIR$/src/components/split/split.vue" />
         <option value="$PROJECT_DIR$/src/components/ratingselect/ratingselect.vue" />
         <option value="$PROJECT_DIR$/src/components/food/food.vue" />
+        <option value="$PROJECT_DIR$/src/common/js/date.js" />
       </list>
     </option>
   </component>
@@ -373,6 +382,28 @@
               <option name="myItemId" value="common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="waimai" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="waimai" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -470,7 +501,7 @@
       <workItem from="1480246123786" duration="53349000" />
       <workItem from="1480471615181" duration="30998000" />
       <workItem from="1480557571163" duration="36271000" />
-      <workItem from="1480738939525" duration="9459000" />
+      <workItem from="1480738939525" duration="15380000" />
     </task>
     <task id="LOCAL-00001" summary="初始化工程并加入icon字体">
       <created>1480238961559</created>
@@ -598,22 +629,29 @@
       <option name="project" value="LOCAL" />
       <updated>1480747824179</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="详情页评价列表样式完成">
+      <created>1480758112509</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1480758112509</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141220000" />
+    <option name="totallyTimeSpent" value="147141000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13313162" sideWeight="0.54293627" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15431164" sideWeight="0.54293627" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1860817" sideWeight="0.4570637" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23440135" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3693086" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40472177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27993256" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -677,37 +715,14 @@
     <MESSAGE value="详情页加入caftcontrol组件" />
     <MESSAGE value="详情页完成商品介绍信息" />
     <MESSAGE value="详情页ratingselect组件完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="详情页ratingselect组件完成" />
+    <MESSAGE value="详情页评价列表样式完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="详情页评价列表样式完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/shopcart/shopcart.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="e#1677#1713#0" expanded="true" />
-            <element signature="e#1822#1903#0" expanded="false" />
-            <element signature="e#2078#2401#0" expanded="false" />
-            <element signature="e#2445#2600#0" expanded="false" />
-            <element signature="e#2621#2763#0" expanded="false" />
-            <element signature="e#2781#3061#0" expanded="false" />
-            <element signature="e#3080#3221#0" expanded="false" />
-            <element signature="e#4445#5873#0" expanded="false" />
-            <element signature="e#6039#9996#0" expanded="false" />
-            <element signature="e#6149#8264#0" expanded="false" />
-            <element signature="e#8291#8654#0" expanded="false" />
-            <element signature="e#8959#9296#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/cartcontrol/cartcontrol.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -1090,19 +1105,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ratingselect/ratingselect.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="5" column="151" selection-start-line="5" selection-start-column="151" selection-end-line="5" selection-end-column="151" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="e#884#1322#0" expanded="false" />
-            <element signature="e#901#982#0" expanded="false" />
-            <element signature="e#2292#2825#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/common/stylus/icon.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
@@ -1123,19 +1125,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ratingselect/ratingselect.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="71" column="38" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="38" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="e#884#1322#0" expanded="false" />
+            <element signature="e#901#982#0" expanded="false" />
+            <element signature="e#2292#2825#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/food/food.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="253" column="29" selection-start-line="253" selection-start-column="29" selection-end-line="253" selection-end-column="29" />
+        <state relative-caret-position="132">
+          <caret line="55" column="50" selection-start-line="55" selection-start-column="50" selection-end-line="55" selection-end-column="50" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="e#2119#2155#0" expanded="true" />
-            <element signature="e#3815#4194#0" expanded="false" />
-            <element signature="e#5041#5465#0" expanded="false" />
-            <marker date="1480757973933" expanded="false" signature="4214:4926" ph="{...}" />
+            <element signature="e#3152#3192#0" expanded="false" />
+            <element signature="e#3216#3378#0" expanded="false" />
+            <element signature="e#3407#3623#0" expanded="false" />
+            <element signature="e#3643#3963#0" expanded="false" />
+            <element signature="e#3677#3794#0" expanded="false" />
+            <element signature="e#4124#4182#0" expanded="false" />
+            <element signature="e#4600#4979#0" expanded="false" />
+            <element signature="e#5826#6250#0" expanded="false" />
+            <element signature="e#6749#7733#0" expanded="false" />
+            <marker date="1480763288633" expanded="false" signature="4999:5711" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/js/date.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
