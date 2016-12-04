@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="731a71c1-4ae0-437b-98f3-9d7b19c8ad13" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.vue" afterPath="$PROJECT_DIR$/src/App.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ratings/ratings.vue" afterPath="$PROJECT_DIR$/src/components/ratings/ratings.vue" />
     </list>
     <ignored path="waimai.iws" />
@@ -40,8 +39,8 @@
       <file leaf-file-name="ratings.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/ratings/ratings.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+            <state relative-caret-position="132">
+              <caret line="83" column="29" selection-start-line="83" selection-start-column="29" selection-end-line="83" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -468,7 +467,7 @@
       <workItem from="1480471615181" duration="30998000" />
       <workItem from="1480557571163" duration="36271000" />
       <workItem from="1480738939525" duration="17222000" />
-      <workItem from="1480817394657" duration="2603000" />
+      <workItem from="1480817394657" duration="5716000" />
     </task>
     <task id="LOCAL-00001" summary="初始化工程并加入icon字体">
       <created>1480238961559</created>
@@ -610,11 +609,18 @@
       <option name="project" value="LOCAL" />
       <updated>1480767835239</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="评论overview综合评分完成">
+      <created>1480820056672</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1480820056672</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151586000" />
+    <option name="totallyTimeSpent" value="154699000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -625,7 +631,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18305598" sideWeight="0.46578366" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23440135" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3642496" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27150086" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27993256" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -691,7 +697,8 @@
     <MESSAGE value="详情页ratingselect组件完成" />
     <MESSAGE value="详情页评价列表样式完成" />
     <MESSAGE value="格式化日期模块，详情页完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="格式化日期模块，详情页完成" />
+    <MESSAGE value="评论overview综合评分完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="评论overview综合评分完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1136,8 +1143,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/ratings/ratings.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+        <state relative-caret-position="132">
+          <caret line="83" column="29" selection-start-line="83" selection-start-column="29" selection-end-line="83" selection-end-column="29" />
           <folding />
         </state>
       </provider>
