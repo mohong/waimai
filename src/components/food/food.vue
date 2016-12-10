@@ -57,9 +57,7 @@
   import cartcontrol from '../cartcontrol/cartcontrol';
   import ratingselect from '../ratingselect/ratingselect';
   import split from '../split/split';
-
   const ALL = 2;
-
   export default {
     props: {
       food: {
@@ -266,7 +264,6 @@
               margin-right: 6px
               vertical-align: top
               font-size: 10px
-
             .avatarcolor: rgb(147, 153, 159)
               border-radius: 50%
           .time
