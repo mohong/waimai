@@ -31,26 +31,27 @@ npm run build
 
 ## 主要技术栈
 - vuejs
-	- [vue1.0文档](http://vuejs.org.cn/guide/)
 - vue-cli
-	- [vue-cli项目地址](https://github.com/vuejs/vue-cli)
 - vue-router
-	- [vue-router1.0文档](https://github.com/vuejs/vue-router/tree/1.0/docs/zh-cn)
 - vue-resource
-	- [vue-resource文档](https://github.com/pagekit/vue-resource/blob/master/docs/http.md)
 - webpack
-	- [webpack官网](https://webpack.js.org/)
 - ECMAScript6 + ESlint
-	- [阮一峰《ECMAScript 6入门》](http://es6.ruanyifeng.com/)
-	- [eslint.org](http://eslint.org/)
 - flex弹性布局
-	- [Flex 布局教程](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html?utm_source=tuicool)
 - stylus
-	- [stylus中文版参考文档](http://www.zhangxinxu.com/jq/stylus/)
 - css3过渡和动画
-	- [CSS3贝塞尔曲线参数生成](http://cubic-bezier.com/#.17,.67,.83,.67)
 - 移动端开发
-	- [滚动插件better-scroll](https://github.com/ustbhuangyi/better-scroll)
-	- [设备像素比devicePixelRatio简单介绍](http://www.zhangxinxu.com/wordpress/2012/08/window-devicepixelratio/)
 - localStorage数据存取
 
+## 参考资料
+- [vue1.0文档](http://vuejs.org.cn/guide/)
+- [vue-cli项目地址](https://github.com/vuejs/vue-cli)
+- [vue-router1.0文档](https://github.com/vuejs/vue-router/tree/1.0/docs/zh-cn)
+- [vue-resource文档](https://github.com/pagekit/vue-resource/blob/master/docs/http.md)
+- [webpack官网](https://webpack.js.org/)
+- [阮一峰《ECMAScript 6入门》](http://es6.ruanyifeng.com/)
+- [eslint.org](http://eslint.org/)
+- [Flex 布局教程](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html?utm_source=tuicool)
+- [stylus中文版参考文档](http://www.zhangxinxu.com/jq/stylus/)
+- [CSS3贝塞尔曲线参数生成](http://cubic-bezier.com/#.17,.67,.83,.67)
+- [滚动插件better-scroll](https://github.com/ustbhuangyi/better-scroll)
+- [设备像素比devicePixelRatio简单介绍](http://www.zhangxinxu.com/wordpress/2012/08/window-devicepixelratio/)
