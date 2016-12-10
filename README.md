@@ -1,8 +1,17 @@
 # waimai
 
-> A Vue.js project
+> 基于vue-cli脚手架+vue仿饿了么商家版块的webapp，路由vue-router实现，服务端数据请求vue-resource实现，页面滚动better-scroll实现。[在线演示](http://uranux.com:8080/#!/goods)。
 
-## Build Setup
+![webapp截图](http://ob9qd20l4.bkt.clouddn.com/waimaiweb.png)
+
+## 开发环境
+- node : v6.9.1
+- vue : v1.0.21
+- vue-router : v0.7.13 
+- vue-resource : v1.0.1
+- IDE : webstorm 
+
+## 构建项目
 
 ``` bash
 # install dependencies
@@ -14,14 +23,8 @@ npm run dev
 # build for production with minification
 npm run build
 
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## 组件化开发
+系统中组件关系
+![组件关系图](http://ob9qd20l4.bkt.clouddn.com/components.png)
