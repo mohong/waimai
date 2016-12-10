@@ -18,20 +18,27 @@
 </template>
 
 <script>
+  import {urlParse} from './common/js/util';
   import header from './components/header/header.vue';
   const ERR_OK = 0;
   export default {
     data() {
       return {
-        seller: {}
+        seller: {
+            id: (() => {
+                let queryParam = urlParse();
+                return queryParam.id;
+            })()
+        }
       };
     },
     created() {
-      this.$http.get('/api/seller').then((response) => {
+      this.$http.get('/api/seller?id=' + this.seller.id).then((response) => {
           response = response.body;
           if (response.errno === ERR_OK) {
-            this.seller = response.data;
+            this.seller = Object.assign({}, this.seller, response.data);
           }
+          console.log(this.seller.id);
       });
     },
     components: {
