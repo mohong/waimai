@@ -2,7 +2,7 @@
 
 > 基于vue-cli脚手架+vue仿饿了么商家版块的webapp，路由vue-router实现，服务端数据请求vue-resource实现，页面滚动better-scroll实现。[在线演示](http://uranux.com:8080/#!/goods)。
 
-![webapp截图](http://ob9qd20l4.bkt.clouddn.com/waimaiweb2.png)
+![webapp截图](http://arthas.com.cn/images/waimaiweb2.png)
 
 ## 开发环境
 - node : v6.9.1
