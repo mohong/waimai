@@ -49,6 +49,8 @@ npm run build
 	- [stylus中文版参考文档](http://www.zhangxinxu.com/jq/stylus/)
 - css3过渡和动画
 	- [CSS3贝塞尔曲线参数生成](http://cubic-bezier.com/#.17,.67,.83,.67)
-- 移动端滚动插件better-scroll
-	- [better-scroll](https://github.com/ustbhuangyi/better-scroll)
+- 移动端开发
+	- [滚动插件better-scroll](https://github.com/ustbhuangyi/better-scroll)
+	- [设备像素比devicePixelRatio简单介绍](http://www.zhangxinxu.com/wordpress/2012/08/window-devicepixelratio/)
 - localStorage数据存取
+
