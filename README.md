@@ -39,7 +39,6 @@ npm run build
 - flex弹性布局
 - stylus
 - css3过渡和动画
-- 移动端开发
 - localStorage数据存取
 
 ## 参考资料
