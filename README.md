@@ -55,4 +55,4 @@ npm run build
 - [滚动插件better-scroll](https://github.com/ustbhuangyi/better-scroll)
 - [设备像素比devicePixelRatio简单介绍](http://www.zhangxinxu.com/wordpress/2012/08/window-devicepixelratio/)
 
-## 根据滴滴前端黃佚的[教程](http://coding.imooc.com/class/evaluation/74.html#Anchor)开发
+根据滴滴前端黃佚的[教程](http://coding.imooc.com/class/evaluation/74.html#Anchor)开发
