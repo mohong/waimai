@@ -41,7 +41,7 @@ npm run build
 - css3过渡和动画
 - localStorage数据存取
 
-## 参考资料
+## 涉及到的知识点
 - [vue1.0文档](http://vuejs.org.cn/guide/)
 - [vue-cli项目地址](https://github.com/vuejs/vue-cli)
 - [vue-router1.0文档](https://github.com/vuejs/vue-router/tree/1.0/docs/zh-cn)
@@ -54,3 +54,5 @@ npm run build
 - [CSS3贝塞尔曲线参数生成](http://cubic-bezier.com/#.17,.67,.83,.67)
 - [滚动插件better-scroll](https://github.com/ustbhuangyi/better-scroll)
 - [设备像素比devicePixelRatio简单介绍](http://www.zhangxinxu.com/wordpress/2012/08/window-devicepixelratio/)
+
+## 根据滴滴前端黃佚的[教程](http://coding.imooc.com/class/evaluation/74.html#Anchor)开发
